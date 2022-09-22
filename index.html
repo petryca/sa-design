@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html class="solar">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Studio Assistant Design</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+
+        <header id="header">
+            <div id="logo">
+
+                <svg id="icon-equalizer" viewBox="0 0 100 100">
+                    <line x1="5" y1="40" x2="5" y2="100"/>
+                    <line x1="20" y1="40" x2="20" y2="100"/>
+                    <line x1="35" y1="40" x2="35" y2="100"/>
+                    <line x1="50" y1="40" x2="50" y2="100"/>
+                    <line x1="65" y1="40" x2="65" y2="100"/>
+                    <line x1="80" y1="40" x2="80" y2="100"/>
+                    <line x1="95" y1="40" x2="95" y2="100"/>
+                </svg>
+
+                <div>Studio&nbsp;Assistant</div>
+
+            </div>
+            <div>
+                <nav class="topnav large">
+                    <ul id="icons">
+                        <li class="desk"><a href="#"><div class="material-symbols-outlined">calendar_month</div></a></li>
+                        <li class="desk"><a href="#"><div class="material-symbols-outlined">info</div></a></li>
+                        <li class="desk"><a href="#"><div class="material-symbols-outlined">contact_support</div></a></li>
+                        <li class="desk"><a href="#"><div class="material-symbols-outlined">notifications</div></a></li>
+                        <li class="desk"><a href="#"><div class="material-symbols-outlined">manage_accounts</div></a></li>
+                        <!-- <li class="desk"><a href="#"><div class="material-symbols-outlined">light_mode</div></a></li> -->
+                        <li class="mobile"><a href="#"><div class="material-symbols-outlined">menu</div></a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <div class="avatar-box">
+                        <img class="avatar" src="media/avatar-2.png">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="grid">
+            <div>
+                <div class="box a">
+                    <header>
+                        <h1>Machine Room</h1>
+                        <h2>PC Studio, New York</h2>
+                    </header>
+                    <nav id="sidenav">
+                        <ul>
+                            <li><a href="#"><div class="material-symbols-outlined">apartment</div><div>Studio Rooms</div></a></li>
+                            <li><a href="#"><div class="material-symbols-outlined">bookmarks</div><div>Booking</div></a></li>
+                            <li><a href="#"><div class="material-symbols-outlined">calendar_month</div><div>Session Calendar</div></a></li>
+                            <li><a href="#"><div class="material-symbols-outlined">mic</div><div>Live Room</div></a></li>
+                            <li><a href="#"><div class="material-symbols-outlined">request_quote</div><div>Invoices</div></a></li>
+                            <li><a href="#"><div class="material-symbols-outlined">person</div><div>Guest Log</div></a></li>
+                            <li><a href="#"><div class="material-symbols-outlined">person_add</div><div>Invite Staff</div></a></li>
+                        </ul>    
+                    </nav>
+                </div>
+                <div class="box b">
+                    <header>
+                        <h1>Studio Managers</h1>
+                    </header>
+                    <div class="user">
+                        <div class="avatar-box">
+                            <img class="avatar" src="media/avatar-1.png">
+                        </div>
+                        <div class="text">
+                            <div class="title">
+                                PC Studio Manager
+                            </div>
+                            <div class="email">
+                                <a href="#" class="openslide">pcsm@studioassistant.io</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user">
+                        <div class="avatar-box">
+                            <img class="avatar" src="media/avatar-2.png">
+                        </div>
+                        <div class="text">
+                            <div class="title">
+                                PC Studio Assist Manager
+                            </div>
+                            <div class="email">
+                                <a href="#" class="openslide">pcsam@studioassistant.io</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="box c">
+                    <header>
+                        <h1>Studio Members</h1>
+                    </header>
+                    <table>
+                            <thead>
+                                <tr>
+                                    <th scope="col">User</th>
+                                    <th scope="col">Admin</th>
+                                    <th scope="col">Hourly Rate</th>
+                                    <th scope="col">Invoice</th>
+                                    <th scope="col">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <div class="user">
+                                            <div class="avatar-box">
+                                                <img class="avatar" src="media/avatar-2.png">
+                                            </div>
+                                            <div class="text">
+                                                <div class="title">
+                                                    PC Studio Admin Engineer
+                                                </div>
+                                                <div class="email">
+                                                    <a href="#" class="openslide">pcsam@studioassistant.io</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td data-label="Admin"><a href="#"><div class="material-symbols-outlined">close</div></a></td>
+                                    <td data-label="Hourly Rate">$45.00</td>
+                                    <td data-label="Invoice"><a href="#"<div class="material-symbols-outlined">done</div></a></td>
+                                    <td data-label="Status"><a href="#"<div class="material-symbols-outlined">done</div></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="user">
+                                            <div class="avatar-box">
+                                                <img class="avatar" src="media/avatar-1.png">
+                                            </div>
+                                            <div class="text">
+                                                <div class="title">
+                                                    Freelance Admin Engineer
+                                                </div>
+                                                <div class="email">
+                                                    <a href="#" class="openslide">pcsm@studioassistant.io</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td data-label="Admin"><a href="#"><div class="material-symbols-outlined">done</div></a></td>
+                                    <td data-label="Hourly Rate">$60.00</td>
+                                    <td data-label="Invoice"><a href="#"><div class="material-symbols-outlined">close</div></a></td>
+                                    <td data-label="Status"><a href="#"><div class="material-symbols-outlined">done</div></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="user">
+                                            <div class="avatar-box">
+                                                <img class="avatar" src="media/avatar-2.png">
+                                            </div>
+                                            <div class="text">
+                                                <div class="title">
+                                                    Freelance Engineer
+                                                </div>
+                                                <div class="email">
+                                                    <a href="#" class="openslide">pcsam@studioassistant.io</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td data-label="Admin"><a href="#"><div class="material-symbols-outlined">close</div></a></td>
+                                    <td data-label="Hourly Rate">$45.00</td>
+                                    <td data-label="Invoice"><a href="#"><div class="material-symbols-outlined">done</div></a></td>
+                                    <td data-label="Status"><a href="#"><div class="material-symbols-outlined">done</div></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="user">
+                                            <div class="avatar-box">
+                                                <img class="avatar" src="media/avatar-1.png">
+                                            </div>
+                                            <div class="text">
+                                                <div class="title">
+                                                    Studio Engineer
+                                                </div>
+                                                <div class="email">
+                                                    <a href="#" class="openslide">pcsm@studioassistant.io</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td data-label="Admin"><a href="#"><div class="material-symbols-outlined">done</div></a></td>
+                                    <td data-label="Hourly Rate">$60.00</td>
+                                    <td data-label="Invoice"><a href="#"><div class="material-symbols-outlined">close</div></a></td>
+                                    <td data-label="Status"><a href="#"><div class="material-symbols-outlined">done</div></a></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                </div>
+            </div>
+        </div>
+        <div id="slideout">
+            <a href="#" class="closeslide"><div class="material-symbols-outlined">close</div></a>
+        </div>
+</html>
